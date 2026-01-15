@@ -33,10 +33,15 @@ github_username:  SREEMT
 # --------------------
 # Build settings
 # --------------------
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "sunrise"
+#theme: minimal-mistakes-jekyll
+#minimal_mistakes_skin: "sunrise"
+#plugins:
+#  - jekyll-feed
+
+remote_theme: mmistakes/minimal-mistakes@4.26.2
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 include: ["_pages"]
 
