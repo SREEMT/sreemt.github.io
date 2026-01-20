@@ -2,7 +2,6 @@
 layout: single
 title:  "UI/UX Learner's Profile"
 date:   2026-01-19 19:22:12 -0500
-categories: blog post
 ---
 
 
