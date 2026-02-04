@@ -7,3 +7,8 @@ main:
     url: /projects/
   - title: "GitHub"
     url: https://github.com/SREEMT
+
+resume_only:
+  - title: "Resume"
+    url: assets/resume.pdf/
+    icon: "fas fa-file-pdf"

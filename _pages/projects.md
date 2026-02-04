@@ -4,7 +4,7 @@ layout: collection
 collection: projects   # <- must match your _projects folder
 author_profile: true
 sidebar:
-  nav: main
+  nav: resume_only
 permalink: /projects/
 ---
 
