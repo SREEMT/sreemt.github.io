@@ -1,0 +1,249 @@
+# : Quick Intro to GitHub Pages and the importance of personal websites.
+
+### Digital Identity on the Internet
+---
+We currently live in a digital age where we heavily rely on technology to function as a society. We heavily rely on the internet today. I could not put this on my page without the internet. In fact, a lot of my learning has been done with the internet. I use the internet to watch TV, learn, engage with my friends, and work. Without it, I could not be as efficient as I am now. Not only that, but I couldn't showcase my work as easily. This is all thanks to my personal website.
+
+Every person has a digital identity, maybe multiple. Regardless, everyone has one if they use the internet. Your digital identity is important and everyone should showcase it to the world and be themselves. This is the joy of having a personal website. It doesn't just have to be for professional use. You can have multiple for different purposes. Maybe one for your art, one to showcase your professional skills, and maybe another for fun. Your not limited on the internet.
+
+### Personal Websites & Being Yourself
+---
+I don't know about you but I strive for personalization. I enjoy making things look and feel the way I like it. I honestly believe its a way to show what kind of person you are. Websites are one of the best ways to do this in the digital era. Its online, its not too difficult, and there are endless possibilities to make it how you want it. Want a game on your page? You can do that. Dont like the color? You can change it. Dont feel like making it look nice from scratch? There are templates out there. There is just so much you can do with a website. It can have as many pages and features as you like.
+
+Your website is yours and its your corner of the internet. You can be yourself and you can make it represent you. This is important for many professionals out there and LinkedIn might not cut it for some. Many industries often have people make portfolios of their work where they showcase their talents through what they have accomplished. Making a website for this is great. You can have all of your work in one place where people can easily go back to. You can even share it easily and even put links to other platforms you are on.
+
+Personal websites are a hub of who you are. Its where your work is showcased, your thoughts are being put out there, and your individuality is present. You are creating your personal brand. Recruiters can see who you are outside the resume and LinkedIn. Not just through your work or thoughts but also through the design of your site. I believe that it is something important in today's world where visibility is becoming more important when looking for jobs. If nobody knows who you, how are they going to know what you are capable of.
+
+### Why GitHub Pages??
+---
+I decided to use GitHub pages because its just easy and straightforward to start and its FREE!! You don't need a lot of technical knowledge either, especially with AI to help you out. It is also filled with features that you can implement to make the perfect website. No need for a backend either and you can deploy your site straight from the GitHub site.
+
+Compared to other methods of creating personal websites, GitHub Pages is the easiest, cheapest, and most customizable option out there. It uses Jekyll, a static-site generator which takes Markdown files and turns them into a static-site. No need for HTML and CSS. It also supports a variety of pre-made templates and themes if you don't feel like customizing your site from scratch.
+
+You can focus on writing content and making your site look good without spending too much time coding. Great for putting your work and thoughts out there quickly with ease.
+
+### Markdown Basics
+---
+##### Headings
+
+```markdown
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
+
+---
+
+##### Text Formatting
+
+```markdown
+**Bold text**
+*Italic text*
+***Bold and italic***
+~~Strikethrough~~
+```
+
+---
+
+##### Lists
+
+##### Unordered List
+
+```markdown
+- Item 1
+- Item 2
+  - Subitem
+```
+
+##### Ordered List
+
+```markdown
+1. First
+2. Second
+3. Third
+```
+
+---
+
+##### Links
+
+```markdown
+[Link text](https://example.com)
+```
+
+---
+
+##### Images
+
+```markdown
+![Alt text](image-url)
+```
+
+Example:
+
+```markdown
+![My Image](/assets/images/photo.jpg)
+```
+
+---
+
+##### Code
+
+##### Inline Code
+
+```markdown
+`code here`
+```
+
+##### Code Block
+
+````markdown
+```
+code here
+```
+````
+
+##### Code Block with Language
+
+````markdown
+```python
+print("Hello World")
+```
+````
+
+---
+
+##### Blockquotes
+
+```markdown
+> This is a quote
+```
+
+---
+
+##### Horizontal Line
+
+```markdown
+---
+```
+
+---
+
+##### Tables
+
+```markdown
+| Name | Age |
+|------|-----|
+| John | 25  |
+| Jane | 30  |
+```
+
+---
+
+##### Checklists
+
+```markdown
+- [x] Completed task
+- [ ] Incomplete task
+```
+
+---
+
+##### Line Breaks
+
+Add two spaces at the end of a line:
+
+```markdown
+Line one  
+Line two
+```
+
+---
+
+#### Escaping Characters
+
+Use a backslash:
+
+```markdown
+\*Not italic\*
+```
+
+---
+
+##### Front Matter (For GitHub Pages / Jekyll)
+
+```markdown
+---
+layout: page
+title: My Page
+---
+```
+
+---
+
+##### Useful Tips
+
+- File extension should be `.md`
+    
+- Markdown is converted into HTML
+    
+- Keep formatting simple for best compatibility
+    
+### Setting up GitHub Pages
+---
+The first step to setting up your own GitHub Pages site is to create your GitHub account.
+The guide I will be using will be from the official documentation here: [Quickstart for Github Pages]([Quickstart for GitHub Pages - GitHub Docs](https://docs.github.com/en/pages/quickstart))
+
+1. The first step after creating your account is to create a new repository.
+
+![Create Repository](/assets/images/gitub_pages_crete_repo.png)
+
+
+2. The next step is to add a name to your repository. You can also add a description if you want. The name has to be in this format: `username.github.io`
+	From there you can then just create it and you will be lead to a new page
+
+![Repository Name](/assets/images/github_pages_repo_name.png)
+
+
+3. Now this is where you create your `index.md` and use Markdown to create your homepage. Make sure to name it `index.md` and add whatever you want to your home page. Make sure to add this header:
+```
+---
+layout: default
+title: Home
+---
+```
+
+![Create Index File](/assets/images/github_pages_create_index.png)
+
+
+4. From here you can deploy your site!! Just go to your repository settings and go to the pages section.  Make sure that it is set to `Deploy from branch` and `main` at `/(root)`. This is where your site is going to deploy from.
+
+![Deploy Settings](/assets/images/github_pages_deploy.png)
+
+5. Now you can make a new page. For this example, create an `about.md` file and place your content in there or you can copy what I did. The same header as the index page, just with the title of the new page.
+```
+---
+layout: page
+title: About
+---
+
+## About Me
+
+This is my about page.
+```
+
+6. Next is your config file. This is where you can choose a theme and add  your navigation bar. Create a new file named `_config.yml`. You can choose any theme you would like, some have less features than others so keep that in mind. [List of Themes](https://github.com/pages-themes)
+```
+theme: minima
+
+header_pages:
+  - index.md
+  - about.md
+```
+
+7. After making all these changes, your site should look like this
+
+![Final Site](/assets/images/github_pages_page.png)
